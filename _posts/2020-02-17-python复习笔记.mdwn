@@ -1,0 +1,18 @@
+---
+title: python复习笔记
+categories:
+ - 中文笔记
+tags:
+ - python
+---
+
+```python
+import random
+
+def toss():
+    """Stimulate the toss of a coin to obtain a head or tail"""
+    if random.randint(0,1) == 0:
+        return'head'
+    else:
+        return 'tail'
+```
